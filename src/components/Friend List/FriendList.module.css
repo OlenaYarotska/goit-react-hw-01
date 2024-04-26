@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 350px;
+   
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #070606;
+    border-radius: 5px;
+}
+.item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.friendName {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.presense {
+    font-size: 14px;
+}
+.online {
+    color: green
+}
+.offline {
+    color: red;
+}

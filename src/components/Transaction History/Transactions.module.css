@@ -1,0 +1,25 @@
+.container {
+    margin-top: 30px;
+    border: 1px solid #141313;
+};
+.tableRowEl {
+    padding: 15px 50px;
+}
+.tableHeader {
+    padding: 15px 50px;
+    border: 1px solid #141313;
+    background-color: #333232;
+    color: #ffff;
+    text-align: justify;
+};
+.tableHeading:not(:last-child) {
+    border-right: 1px solid #000000;
+}
+
+.tableRow:nth-of-type(2n) {
+    background-color: #b4c6d6;
+}
+.tableData {
+    padding: 12px 20px;
+    text-align: justify;
+}
